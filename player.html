@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+        integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="player.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="top">
+                <div class="menu">
+                    <i class="down fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="coverBox">
+                    <img src="cover 1.png" alt="" class="coverImg">
+                </div>
+                <div class="volumeBox">
+                    <i class="volumeIcon fa-solid fa-volume-high"></i>
+                    <input type="range" class="volumeBar" min="0" max="100" value="30">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="nameBox">
+                    <div class="name">
+                        Song Name
+                    </div>
+                    <div class="gifBox">
+                        <img src="playing.gif" alt="" class="gif">
+                    </div>
+                </div>
+                <div class="progressBox">
+                    <input type="range" class="progress" min="0" max="100" value="0">
+                    <div class="current">current</div>
+                    <div class="duration">duration</div>
+                </div>
+                <div class="playerBox">
+                    <i class="prev fa-solid fa-backward-step"></i>
+                    <i class="play fa-solid fa-circle-play"></i>
+                    <i class="next fa-solid fa-forward-step"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="top2">
+                <h2>My Playlist</h2>
+            </div>
+            <div class="middle2">
+                <div class="list">
+                    <div class="songImg">
+                        <img src="cover 1.png" alt="" class="image2">
+                    </div>
+                    <div class="songName2">
+                        Song Name
+                    </div>
+                </div>
+            </div>
+            <div class="bottom2">
+                <div class="bottom-main">
+                    <div class="cover2">
+                        <img src="cover 1.png" alt="" class="imgBottom">
+                    </div>
+                    <div class="nameBottom">
+                        Song Name
+                    </div>
+                    <div class="gifImg">
+                        <img src="playing.gif" alt="" class="gif2">
+                    </div>
+
+                </div>
+                <div class="play2Btn">
+                    <i class="play2 fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="player.js"></script>
+</body>
+
+</html>
